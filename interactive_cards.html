@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interactive Carousel Cards</title>
+		<link rel="stylesheet" href="styles/interactive_cards.css" />
+	</head>
+	<body>
+		<main class="carousel-section">
+			<div class="heading">
+				<p class="heading-label">Explore Space</p>
+				<h1>Discover the Universe</h1>
+				<p>
+					Explore astronomical objects and phenomena throughout the universe.
+				</p>
+			</div>
+
+			<div class="carousel">
+				<!-- Cards -->
+
+				<div class="carousel-track" id="carouselTrack">
+					<article class="card">
+						<div class="card-icon">🌌</div>
+						<h2>Galaxies</h2>
+						<p>Explore distant galaxies</p>
+					</article>
+
+					<article class="card">
+						<div class="card-icon">🌑</div>
+						<h2>Black Holes</h2>
+						<p>Discover the unknown</p>
+					</article>
+
+					<article class="card">
+						<div class="card-icon">🔭</div>
+						<h2>Observatory</h2>
+						<p>Watch the universe</p>
+					</article>
+
+					<article class="card">
+						<div class="card-icon">☄️</div>
+						<h2>Comet Trails</h2>
+						<p>Journey through space</p>
+					</article>
+
+					<article class="card">
+						<div class="card-icon">🪐</div>
+						<h2>Planets</h2>
+						<p>Visit distant worlds</p>
+					</article>
+
+					<article class="card">
+						<div class="card-icon">🌟</div>
+						<h2>Stars</h2>
+						<p>Explore stellar systems</p>
+					</article>
+
+					<article class="card">
+						<div class="card-icon">🚀</div>
+						<h2>Exploration</h2>
+						<p>Travel beyond Earth</p>
+					</article>
+				</div>
+
+				<!--Controls-->
+				<div class="carousel-controls">
+					<button
+						class="carousel-button"
+						id="previousButton"
+						aria-label="Previous card">
+						&#10094;
+					</button>
+
+					<div class="carousel-dots" id="carouselDots"></div>
+
+					<button
+						class="carousel-button"
+						id="nextButton"
+						aria-label="Next card">
+						&#10095;
+					</button>
+				</div>
+			</div>
+		</main>
+		<script src="scripts/interactive_cards.js"></script>
+	</body>
+</html>
